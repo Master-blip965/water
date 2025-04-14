@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart Attendance System</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+   
+      body {
+        font-family: "Poppins",sans-serif;
+        margin: 40px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      .section {
+        background-color: #e9f1fa;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      h2 {
+        color: #0a4b78;
+        font-size: 18px;
+        margin-top: 0;
+      }
+      .header {
+        grid-column: span 3;
+        text-align: center;
+        background-color: #0a4b78;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      .footer {
+        grid-column: span 3;
+        background-color: #e6ffe6;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="expo.jpg"
+          alt="sathyabama logo"
+        />
+        <h1>Portable  Water Profile Water System</h1>
+        <p>
+          <strong>Team Members:</strong> Uday Kiran- Chandra Koushik- Parthav Sri Sai- Nanda Kowshik- Jeevan Kumar- Satwik - Murali Krishna - Raghu Aditya
+        </p>
+        <p><strong>Mentor:</strong> Dr.M.D. Kamalesh, Assistant Professor, CSE</p>
+      </div>
+
+      <div class="section">
+        <h2>Abstract</h2>
+        <p>
+          Water is essential for life, and its quality directly affects health, agriculture, and the environment. With rising pollution and industrial discharge, real-time water quality monitoring is crucial. This project introduces a Water Quality Monitoring System using ESP32 to measure parameters like turbidity, TDS, conductivity, and temperature/humidity (via DHT11), all displayed on mobile App
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Objectives</h2>
+        <ul>
+          <li> Develop a real-time water quality monitoring system using the ESP32 microcontroller.  </li>
+          <li> Integrate sensors to measure turbidity, TDS, conductivity, and temperature/humidity.  </li>
+          <li> Display collected data with the help of mobile Application for easy monitoring.  </li>
+          <li> Ensure water safety and quality for various environmental and practical applications.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Introduction</h2>
+        <p>
+          Water is essential for life, and its quality affects health, ecosystems, agriculture, and industry. Rapid industrialization and pollution have led to increased water contamination, posing serious risks. Traditional testing methods are often manual, expensive, and slow, making regular checks difficult in remote areas.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Proposed Methodology</h2>
+        <p>
+          The proposed model is a cost-effective, portable, and real-time water quality monitoring system based on the ESP32 microcontroller. It aims to overcome the limitations of existing solutions by combining multiple environmental sensors, LCD display/Mobile Application, and the potential for IoT integration
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Hardware and Software</h2>
+        <ul>
+          <li>ESP32 Microcontroller</li>
+          <li>TDS Sensor</li>
+          <li>Turbidity Sensor</li>
+          <li>Conductivity Sensor</li>
+          <li>DHT11 Sensor</li>
+          <li>Arduino IDE</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Conclusion</h2>
+        <p>
+          The ESP32-based Water Quality Monitoring System offers a cost-effective way to monitor water parameters in real time. It uses sensors for turbidity, TDS, conductivity, and temperature/humidity, with data shown on mobile Application.This helps in early contamination detection and supports smarter water management. Future upgrades could include cloud connectivity and mobile alerts.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Architecture</h2>
+        <img
+          src="archi.jpg"
+          alt="Architecture Diagram"
+        />
+      </div>
+      <div class="section">
+        <h2>Implementation & Results</h2>
+        <p>
+          The system uses an ESP32 microcontroller connected to sensors like TDS, turbidity, conductivity, and DHT11 to measure water quality parameters. The data is displayed on a 16x2 LCD for real-time monitoring. Powered by a portable power source, the setup is compact and easy to carry, making it ideal for use in remote or field locations While the mobile app is still under development, initial tests showed improved accuracy and reduced search times. While the mobile app is still under
+        </p>
+        <img
+          src="photo.jpg"
+          alt="Project Photo"
+        />
+      </div>
+
+      <div class="section">
+        <h2>References</h2>
+        <p>
+         <p> - IoT Based Water Quality Monitoring System, IRJET, Vol. 5, Issue 6, 2018. </p> 
+        <p>  - Water Quality Monitoring Using IoT and Arduino, IJERT, Vol. 9, Issue 8, 2020. </p> 
+         <p>- Smart Water Quality Monitoring Using IoT, IJSER, Vol. 10, Issue 5, 2019.</p>
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Acknowledgment</h2>
+        <p>
+          
+          We thank our mentor Kamalesh Sir for his constant support. We also thank our college, our faculty, and our teammates for their contributions and collaboration in making this project successful.
+        </p>
+      </div>
+
+      
+  </body>
+</html>
